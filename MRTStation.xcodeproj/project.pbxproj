@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92EB2971E11040C000E27BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92EB2961E11040C000E27BA /* AppDelegate.swift */; };
+		F92EB29E1E11040C000E27BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92EB29C1E11040C000E27BA /* Main.storyboard */; };
+		F92EB2A01E11040C000E27BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92EB29F1E11040C000E27BA /* Assets.xcassets */; };
+		F92EB2A31E11040C000E27BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92EB2A11E11040C000E27BA /* LaunchScreen.storyboard */; };
+		F9753BBA1E115E31004F480C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9753BB91E115E31004F480C /* CustomTableViewCell.swift */; };
+		F985C27B1E11051700D2E111 /* MRTStationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985C2791E11051700D2E111 /* MRTStationDetailViewController.swift */; };
+		F985C27C1E11051700D2E111 /* MRTStationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985C27A1E11051700D2E111 /* MRTStationListViewController.swift */; };
+		F985C27F1E11055E00D2E111 /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = F985C27D1E11055E00D2E111 /* MRT.json */; };
+		F985C2801E11055E00D2E111 /* MRTStationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985C27E1E11055E00D2E111 /* MRTStationData.swift */; };
+		F99446B91E123584006D552E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99446B81E123584006D552E /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F92EB2931E11040C000E27BA /* MRTStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRTStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92EB2961E11040C000E27BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F92EB29D1E11040C000E27BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F92EB29F1E11040C000E27BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92EB2A21E11040C000E27BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F92EB2A41E11040C000E27BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9753BB91E115E31004F480C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F985C2791E11051700D2E111 /* MRTStationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTStationDetailViewController.swift; sourceTree = "<group>"; };
+		F985C27A1E11051700D2E111 /* MRTStationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTStationListViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		F985C27D1E11055E00D2E111 /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MRT.json; path = Data/MRT.json; sourceTree = "<group>"; };
+		F985C27E1E11055E00D2E111 /* MRTStationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRTStationData.swift; path = Data/MRTStationData.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		F99446B81E123584006D552E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "Packages/SwiftyJSON-3.1.4/Source/SwiftyJSON.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92EB2901E11040C000E27BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92EB28A1E11040C000E27BA = {
+			isa = PBXGroup;
+			children = (
+				F92EB2951E11040C000E27BA /* MRTStation */,
+				F92EB2941E11040C000E27BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92EB2941E11040C000E27BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92EB2931E11040C000E27BA /* MRTStation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92EB2951E11040C000E27BA /* MRTStation */ = {
+			isa = PBXGroup;
+			children = (
+				F99446B81E123584006D552E /* SwiftyJSON.swift */,
+				F985C27D1E11055E00D2E111 /* MRT.json */,
+				F985C27E1E11055E00D2E111 /* MRTStationData.swift */,
+				F985C2791E11051700D2E111 /* MRTStationDetailViewController.swift */,
+				F985C27A1E11051700D2E111 /* MRTStationListViewController.swift */,
+				F92EB2961E11040C000E27BA /* AppDelegate.swift */,
+				F92EB29C1E11040C000E27BA /* Main.storyboard */,
+				F9753BB91E115E31004F480C /* CustomTableViewCell.swift */,
+				F92EB29F1E11040C000E27BA /* Assets.xcassets */,
+				F92EB2A11E11040C000E27BA /* LaunchScreen.storyboard */,
+				F92EB2A41E11040C000E27BA /* Info.plist */,
+			);
+			path = MRTStation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92EB2921E11040C000E27BA /* MRTStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92EB2A71E11040C000E27BA /* Build configuration list for PBXNativeTarget "MRTStation" */;
+			buildPhases = (
+				F92EB28F1E11040C000E27BA /* Sources */,
+				F92EB2901E11040C000E27BA /* Frameworks */,
+				F92EB2911E11040C000E27BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRTStation;
+			productName = MRTStation;
+			productReference = F92EB2931E11040C000E27BA /* MRTStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92EB28B1E11040C000E27BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tw;
+				TargetAttributes = {
+					F92EB2921E11040C000E27BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F92EB28E1E11040C000E27BA /* Build configuration list for PBXProject "MRTStation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92EB28A1E11040C000E27BA;
+			productRefGroup = F92EB2941E11040C000E27BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92EB2921E11040C000E27BA /* MRTStation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92EB2911E11040C000E27BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92EB2A31E11040C000E27BA /* LaunchScreen.storyboard in Resources */,
+				F92EB2A01E11040C000E27BA /* Assets.xcassets in Resources */,
+				F92EB29E1E11040C000E27BA /* Main.storyboard in Resources */,
+				F985C27F1E11055E00D2E111 /* MRT.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92EB28F1E11040C000E27BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F985C27C1E11051700D2E111 /* MRTStationListViewController.swift in Sources */,
+				F9753BBA1E115E31004F480C /* CustomTableViewCell.swift in Sources */,
+				F985C27B1E11051700D2E111 /* MRTStationDetailViewController.swift in Sources */,
+				F99446B91E123584006D552E /* SwiftyJSON.swift in Sources */,
+				F985C2801E11055E00D2E111 /* MRTStationData.swift in Sources */,
+				F92EB2971E11040C000E27BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F92EB29C1E11040C000E27BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92EB29D1E11040C000E27BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F92EB2A11E11040C000E27BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92EB2A21E11040C000E27BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92EB2A51E11040C000E27BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F92EB2A61E11040C000E27BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92EB2A81E11040C000E27BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MRTStation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.MRTStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F92EB2A91E11040C000E27BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MRTStation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.MRTStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92EB28E1E11040C000E27BA /* Build configuration list for PBXProject "MRTStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92EB2A51E11040C000E27BA /* Debug */,
+				F92EB2A61E11040C000E27BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92EB2A71E11040C000E27BA /* Build configuration list for PBXNativeTarget "MRTStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92EB2A81E11040C000E27BA /* Debug */,
+				F92EB2A91E11040C000E27BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92EB28B1E11040C000E27BA /* Project object */;
+}
