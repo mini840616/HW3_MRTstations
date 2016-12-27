@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16E20D801E123A3100A225F6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E20D7F1E123A3100A225F6 /* SwiftyJSON.swift */; };
 		F92EB2971E11040C000E27BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92EB2961E11040C000E27BA /* AppDelegate.swift */; };
 		F92EB29E1E11040C000E27BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92EB29C1E11040C000E27BA /* Main.storyboard */; };
 		F92EB2A01E11040C000E27BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92EB29F1E11040C000E27BA /* Assets.xcassets */; };
@@ -16,10 +17,10 @@
 		F985C27C1E11051700D2E111 /* MRTStationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985C27A1E11051700D2E111 /* MRTStationListViewController.swift */; };
 		F985C27F1E11055E00D2E111 /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = F985C27D1E11055E00D2E111 /* MRT.json */; };
 		F985C2801E11055E00D2E111 /* MRTStationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985C27E1E11055E00D2E111 /* MRTStationData.swift */; };
-		F99446B91E123584006D552E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99446B81E123584006D552E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16E20D7F1E123A3100A225F6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		F92EB2931E11040C000E27BA /* MRTStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRTStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92EB2961E11040C000E27BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F92EB29D1E11040C000E27BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		F985C27A1E11051700D2E111 /* MRTStationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTStationListViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		F985C27D1E11055E00D2E111 /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MRT.json; path = Data/MRT.json; sourceTree = "<group>"; };
 		F985C27E1E11055E00D2E111 /* MRTStationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRTStationData.swift; path = Data/MRTStationData.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		F99446B81E123584006D552E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "Packages/SwiftyJSON-3.1.4/Source/SwiftyJSON.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		F92EB2951E11040C000E27BA /* MRTStation */ = {
 			isa = PBXGroup;
 			children = (
-				F99446B81E123584006D552E /* SwiftyJSON.swift */,
+				16E20D7F1E123A3100A225F6 /* SwiftyJSON.swift */,
 				F985C27D1E11055E00D2E111 /* MRT.json */,
 				F985C27E1E11055E00D2E111 /* MRTStationData.swift */,
 				F985C2791E11051700D2E111 /* MRTStationDetailViewController.swift */,
@@ -155,7 +155,7 @@
 				F985C27C1E11051700D2E111 /* MRTStationListViewController.swift in Sources */,
 				F9753BBA1E115E31004F480C /* CustomTableViewCell.swift in Sources */,
 				F985C27B1E11051700D2E111 /* MRTStationDetailViewController.swift in Sources */,
-				F99446B91E123584006D552E /* SwiftyJSON.swift in Sources */,
+				16E20D801E123A3100A225F6 /* SwiftyJSON.swift in Sources */,
 				F985C2801E11055E00D2E111 /* MRTStationData.swift in Sources */,
 				F92EB2971E11040C000E27BA /* AppDelegate.swift in Sources */,
 			);
